@@ -25,10 +25,11 @@ namespace Lesson1     // namespace是定义命名空间的关键字。  Lesson1 
         static void Main(string[] args)     
         {  // 函数开始
 
+            // 这个代码是类的函数调用, 格式： 类.函数(); Debug是类，Log是函数
             // Console.WriteLine是把字符串输出到屏幕的函数。
             // Console这个类，它定义在 System 这个命名空间里面，所以我们上面需要 写using System; 好让vs可以知道去哪里找Console这个类
             // WriteLine是Console的一个函数。意思是写下一行
-            Console.WriteLine("简单的输出程序");
+            Console.WriteLine("简单的输出程序"); // 这些语句最后都需要;结尾，这个是强制要求的。
 
         }   // 函数结束
 
@@ -38,3 +39,4 @@ namespace Lesson1     // namespace是定义命名空间的关键字。  Lesson1 
 
 // 运行：按ctrl + F5
 // 很多东西有个概念就可以，不需要马上就理解
+// C# 里面有很多关键字，比如 namespace class,用来定义一些结构。起名字不可以用这些关键字做名字
